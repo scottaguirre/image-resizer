@@ -1,0 +1,21 @@
+{
+  "name": "image-resizing",
+  "version": "1.0.0",
+  "description": "image resizing app with nodejs",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edwin",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "sharp": "^0.34.3"
+  }
+}
